@@ -58,6 +58,30 @@ header h1 {
     background-color: #0056b3;
 }
 
+.recent-searches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.recent-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #495057;
+}
+
+.recent-btn:hover {
+    background-color: #dee2e6;
+    color: #212529;
+}
+
 .loading {
     font-size: 1.2rem;
     color: #666;
